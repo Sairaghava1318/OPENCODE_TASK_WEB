@@ -1,0 +1,164 @@
+body{
+    background-image: url(back3.jpg);
+    background-size: cover;
+}
+div{
+    display: inline;
+    text-decoration: none;
+    height: 200px;
+    width: 200px;
+    margin-left: 200px;
+    font-size: 19px;
+ 
+}
+button {
+    border-radius: 10px;
+}
+section{
+    font-size: large;
+}
+@keyframes SaiAnimation {
+    from{ 
+background-color: rgb(25, 178, 183);
+font-style: normal;
+    }
+    to{
+background-color: white;
+font-style: italic;
+    }
+}
+.heading{
+    
+height: 60px;
+width: 150px;
+    background-color: white;
+    text-align: center;
+    margin-left: 700px;
+    border-radius: 20px;
+    animation: SaiAnimation 5s linear 2s infinite normal;
+    position: sticky;
+    top: 0px;
+   
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 400px;
+}
+.loader{
+    height: 20px;
+    width: 20px;
+    border: 2px solid rgb(0, 8, 255);
+    border-top: 2px solid rgb(242, 255, 0);
+    border-radius: 50%;
+    animation: SaiAnimation2 3s ease-in 0s infinite alternate ;
+    position: fixed;
+    top: 7px;
+    left: 180px;
+}
+@keyframes SaiAnimation2 {
+    from{ rotate: 0deg;
+    }
+    to{
+rotate: 360deg;
+    }
+}
+
+button:active{ border: 2px solid cyan;
+}
+#link{
+    text-decoration: none;
+    color: white;
+}
+
+.loader2{
+    height: 20px;
+    width: 20px;
+    border: 2px solid rgb(0, 8, 255);
+    border-top: 2px solid rgb(242, 255, 0);
+    border-radius: 50%;
+    animation: SaiAnimation2 3s ease-in 0s infinite alternate ;
+    position: fixed;
+    top: 7px;
+    left: 1240px;
+}
+.join{
+    color: white;
+    font-size: x-large;  
+    height: 100px;
+    width: 400px;
+    position: absolute;
+    top: 340px;
+}
+.login{
+    height: 500px;
+    width: 400px;
+    border: 2px solid white;
+    border-radius: 25px;
+    position: absolute;
+    margin-left: 1100px;
+    color: white;
+    text-align: center;
+    background-image: url(login.jpg);
+    background-size : cover;
+}
+.navbar{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+.username{
+    color: white;
+ position: absolute;
+ right: 270px;
+ top: 300px;
+ text-align: center;
+}
+.Password{
+    color: white;
+ position: absolute;
+ right: 270px;
+ top: 400px;
+ text-align: center;
+}
+.loginbutton{
+    color:black;
+border: 2px solid black;
+position: fixed;
+left: 1260px;
+top: 520px;
+height: 35px;
+width: 80px;
+}
+.loginbutton:hover{
+    background-color: aqua;
+}
+.input1{
+    position: absolute;
+    top: 330px;
+    left: 1000px;
+    border: 2px solid cyan;
+    height: 20px;
+    width: 170px;
+}
+.input2{
+    position: absolute;
+    top: 430px;
+    left: 1000px;
+    border: 2px solid cyan;
+    height: 20px;
+    width: 170px;
+}
+.signup{
+    color: white;
+    position: absolute;
+    left: 1000px;
+    top: 600px;
+}
+form input:valid{
+    border: 2px solid greenyellow;
+}
+form input:invalid{
+    border: 2px solid red;
+}
+
