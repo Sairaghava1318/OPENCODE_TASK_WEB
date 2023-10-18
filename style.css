@@ -161,4 +161,7 @@ form input:valid{
 form input:invalid{
     border: 2px solid red;
 }
-
+.Intro{
+    color: white;
+    text-align: center;
+}
